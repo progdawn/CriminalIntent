@@ -9,6 +9,7 @@ import android.os.Bundle;
 
 import java.util.UUID;
 
+//Reminder to delete this class. Holding off for now, just because. It was replaced with CrimePagerActivity
 public class CrimeActivity extends SingleFragmentActivity {
 
     private static final String EXTRA_CRIME_ID = "com.progdawn.criminalintent.crime_id";
