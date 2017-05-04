@@ -1,5 +1,6 @@
 package com.progdawn.criminalintent;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -16,7 +17,7 @@ import android.widget.Toast;
 import java.util.List;
 
 /**
- * Created by dsmye on 5/1/2017.
+ * Created by Dawn Myers on 5/1/2017.
  */
 
 public class CrimeListFragment extends Fragment {
@@ -70,7 +71,8 @@ public class CrimeListFragment extends Fragment {
 
         @Override
         public void onClick(View v) {
-            Toast.makeText(getActivity(), mCrime.getTitle() + " clicked!", Toast.LENGTH_SHORT).show();
+            Intent intent = CrimeActivity.newIntent(getActivity(), mCrime.getId());
+            startActivity(intent);
         }
     }
 

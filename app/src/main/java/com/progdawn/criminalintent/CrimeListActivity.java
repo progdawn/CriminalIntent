@@ -3,7 +3,7 @@ package com.progdawn.criminalintent;
 import android.support.v4.app.Fragment;
 
 /**
- * Created by dsmye on 5/1/2017.
+ * Created by Dawn Myers on 5/1/2017.
  */
 
 public class CrimeListActivity extends SingleFragmentActivity{

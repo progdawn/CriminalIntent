@@ -7,7 +7,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
 
 /**
- * Created by dsmye on 5/1/2017.
+ * Created by Dawn Myers on 5/1/2017.
  */
 
 public abstract class SingleFragmentActivity extends AppCompatActivity {
